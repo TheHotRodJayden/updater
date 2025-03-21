@@ -1324,7 +1324,7 @@ if ($currentStep !== []) {
 	if ($stepState === 'start') {
 		die(
 			sprintf(
-				'Step %d is currently in process. Please reload this page later or remove the following file to start from scratch: %s',
+				'Step %d is currently in progress. Please reload this page later or remove the following file to start from scratch: %s',
 				$stepNumber,
 				$updater->getUpdateStepFileLocation()
 			)
